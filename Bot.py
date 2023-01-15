@@ -3,7 +3,7 @@ from aiogram import Bot, types
 from aiogram.utils import executor
 from aiogram.dispatcher import Dispatcher
 
-from config import Token, open_wether_token
+from config import Token, open_wether_token # Token = telegram bot token
 
 bot = Bot(token=Token)
 dp = Dispatcher(bot)
